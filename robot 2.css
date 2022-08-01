@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+h2{
+    color:#4169e1;
+    text-align: center;
+    font-family:cursive;
+    font-size: 40px;
+}
+.robot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.head{
+    border: solid #4169e1;
+    margin-top: 80px;
+    margin-left: 450px;
+    margin-right: 450px;
+    height: 90px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    background-color: #4169e1;
+}
+.head:hover{
+        width: 150px;
+}
+.eye1{
+    color: blanchedalmond;
+    margin-left: 15px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.eye2{
+    color: blanchedalmond;
+      margin-left: 75px;
+    margin-top: -24px;
+    font-size: 20px;
+}
+.torso{
+    border: solid #4169e1;
+    margin-top: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    height: 130px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: #4169e1;
+}
+.left{
+    border: solid #4169e1;
+    margin-top: -135px;
+    margin-left: 428px;
+    margin-right: 562px;
+    height: 65px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    background-color: #4169e1;
+}
+.right{
+    border: solid #4169e1;
+    margin-top: -70px;
+    margin-left: 563px;
+    margin-right: 425px;
+    height: 65px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    background-color: #4169e1;
+}
+.rfoot{
+    border: solid #4169e1;
+    margin-top: -70px;
+    margin-left: 520px;
+    margin-right: 465px;
+    height: 65px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    background-color: #4169e1;
+}
+.lfoot{
+    border: solid #4169e1;
+    margin-top: 35px;
+    margin-left: 465px;
+    margin-right: 520px;
+    height: 65px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    background-color: #4169e1;
+    transition: 1s;
+}
+.lfoot:hover{
+        transform: rotate(20deg);
+}
